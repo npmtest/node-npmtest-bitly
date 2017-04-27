@@ -1,6 +1,6 @@
 # npmtest-bitly
 
-#### test coverage for  [bitly (v4.1.1)](https://github.com/tanepiper/node-bitly)  [![npm package](https://img.shields.io/npm/v/npmtest-bitly.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bitly) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bitly.svg)](https://travis-ci.org/npmtest/node-npmtest-bitly)
+#### basic test coverage for  [bitly (v4.1.1)](https://github.com/tanepiper/node-bitly)  [![npm package](https://img.shields.io/npm/v/npmtest-bitly.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bitly) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bitly.svg)](https://travis-ci.org/npmtest/node-npmtest-bitly)
 
 #### A Bit.ly API library for Node.JS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bitly/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bitly/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bitly/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bitly/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bitly/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bitly/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bitly/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bitly/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bitly/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bitly/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bitly/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bitly/build/coverage.html/index.html)
 
@@ -110,7 +110,8 @@
         "prepublish": "npm run compile",
         "test": "mocha test/ --recursive --compilers js:babel/register"
     },
-    "version": "4.1.1"
+    "version": "4.1.1",
+    "bin": {}
 }
 ```
 
